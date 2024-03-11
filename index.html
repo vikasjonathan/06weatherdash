@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <script
+      src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+      integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+      crossorigin="anonymous"
+    ></script>
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+    <form method="POST">
+        <h3>Note: default country for this is USA</h3>
+        <label for="zipcodeInput">Enter city zip code: </label>
+        <input type="text" placeholder="zip code" name="zipcodeInput" id="zipcodeInput" />
+        <label for="countryInput">Enter country code: </label>
+        <input type="text" placeholder="country code" name="countryInput" id="countryInput" />
+        <button id="submitLocation">submit</button>
+      </form>
+      <script src="./assets/js/keys.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
