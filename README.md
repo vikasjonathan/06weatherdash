@@ -23,3 +23,4 @@ https://day.js.org/docs/en/display/format
 
 ## Link
 Git hub link :https://github.com/vikasjonathan/06weatherdash
+deployed link : https://vikasjonathan.github.io/06weatherdash/
